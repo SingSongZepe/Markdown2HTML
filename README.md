@@ -6,6 +6,7 @@
 > Markdown is a lightweight markup language that has serveal variations
 > and extensions, allowing for different syntax rules. The basic Markdown
 > syntax includes the following elements
+> - Indent
 > - Headings
 > - Bold Text
 > - Italic Text
@@ -19,6 +20,13 @@
 > - Tables
 
 ## About syntax
+
+
+### Indent
+> e.g.
+> 
+> `___Indent`
+> where '_' is space
 
 ### Headings
 

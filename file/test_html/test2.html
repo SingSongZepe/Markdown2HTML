@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  table {
+      border-collapse: collapse; /* 合并边框 */
+    }
+    th, td {
+      border: 1px solid #ccc; /* 表格单元格边框 */
+      padding: 8px; /* 内边距 */
+    }
+</style>
+<body>
+  <table>
+      <caption>员工信息表</caption>
+      <thead>
+          <tr>
+              <th scope="col">姓名</th>
+              <th scope="col">职位</th>
+              <th scope="col">部门</th>
+              <th scope="col">工资</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>张三</td>
+              <td>开发者</td>
+              <td>技术部</td>
+              <td>$5000</td>
+          </tr>
+          <tr>
+              <td>李四</td>
+              <td>设计师</td>
+              <td>设计部</td>
+              <td>$4500</td>
+          </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+              <td colspan="3">总计</td>
+              <td>$9500</td>
+          </tr>
+      </tfoot>
+  </table>
+</body>
+</html>
